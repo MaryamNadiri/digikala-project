@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>فروشگاه دیجی کالا</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="assets/img/favicon.png"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" type="text/css" href="assets/Css/style.css" />
+	</head>
+	<body>
+		<div class="ads-header">
+			<img src="assets/img/top-ads.gif" />
+		</div>
+		<header class="header">
+			<div class="header-right">
+				<img src="assets/img/logo.svg" />
+				
+				<form>
+					<input class="header-searchbar" type="text" placeholder="جستجو در دیجی کالا..." />
+					<i class="fa fa-search header-search-icon" aria-hidden="true"></i>
+				</form>
+				<img class="1-year" src="assets/img/1year.png"/>
+			</div>
+			<div class="header-left">
+				<a href="" class="profile">
+					<i class="fa fa-user my-fa-user" aria-hidden="true"></i>
+					ورود به حساب کاربری
+				</a>
+				<div class="left-seprator">
+				</div>
+				<a><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="header-right">
+				<ul class="header-right-nav-menu">
+					<li><a href=""></a><i class="fa fa-bars" aria-hidden="true"></i>
+					دسته بندی کالاها
+						<div class="submenu">
+							<div class="row">
+								<div class="col-6">
+									<h4>محصولات فروشگاه</h4>
+									<ul>
+										<li>زیر منو</li>
+										<li>زیر منو</li>
+										<li>زیر منو</li>
+										<li>زیر منو</li>
+									</ul>
+								</div>
+								<div class="col-6">
+									<img class="w-100" src="assets/img/menu1.png" />
+								</div>
+							</div>
+						</div>
+					</li>
+					<div class="seprator"></div>
+					<li><a href=""></a>منو</li>
+					<li><a href=""></a>منو</li>
+					<li><a href=""></a>منو</li>
+					<li><a href=""></a>منو</li>
+				</ul>
+			</div>
+			<div class="header-left header-location">
+				لطفا شهر و استان خود را انتخاب کنید
+				
+				<img src="assets/img/locationicon.png"/>
+			</div>
+		</header>
+		<div class="container">
+			<section class="slider">
+				<div class="right-slider">
+					<img src="assets/img/slide.jpg" />
+					
+					<button class="slider-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+					<button class="slider-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+				</div>
+				<div class="left-slider">
+					<img src="assets/img/top-box1.jpg" />
+					<img src="assets/img/top-box2.jpg" />
+				</div>
+			</section>
+		</div>
+		<section class="offer">
+			<div class="container">
+				<div class="row scrollable">
+					<div class="col-mobile-5 col-2 center-flex">
+						<img class="w-100" src="assets/img/amazing-box.png" />
+							<button class="btn btn-mobile">
+							مشاهده همه
+							 <i class="fa fa-angle-left" aria-hidden="true"></i>
+							</button>
+					</div>
+					<div class="col-moblie-7 col-10">
+						<div class="row scrollable overf-auto">
+							<div class="col-3 pr-box mobile-box">
+								<div class="pr-inside">
+									<img class="w-100" src="assets/img/amazing1.jpg"/>
+									شامپو بدن شون مدل Aloevera and Lemon حجم 420 میلی لیتر
+									<div class="price">
+										<div class="price-before">43,600</div>
+										<span class="discount">19%</span>
+										<div class="price-after">35,350تومان</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 pr-box mobile-box">
+								<div class="pr-inside">
+									<img class="w-100" src="assets/img/amazing2.jpg"/>
+									دستمال توالت سافتلن بسته 8 عددی
+									<div class="price pbox">
+										<div class="price-before">68,000</div>
+										<span class="discount">20%</span>
+										<div class="price-after">54,400تومان</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 pr-box mobile-box">
+								<div class="pr-inside">
+									<img class="w-100" src="assets/img/amazing3.jpg"/>
+									شیر غنی شده نستله سری نان کید-400گرم
+									<div class="price">
+										<div class="price-before">43,000</div>
+										<span class="discount">15%</span>
+										<div class="price-after">36,550تومان</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 pr-box mobile-box">
+								<div class="pr-inside">
+									<img class="w-100" src="assets/img/amazing4.jpg"/>
+									پوشک بارلی سایز 3 بسته 46 عددی به همراه دستمال مرطوب
+									<div class="price">
+										<div class="price-before">167,700</div>
+										<span class="discount">24%</span>
+										<div class="price-after">127,000تومان</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container">
+			<div class="row">
+				<div class="col-mobile-12 col-3 padding-5"><img class="w-100 border-radius-10" src="assets/img/product1.jpg"/></div>
+				<div class="col-mobile-12 col-3 padding-5"><img class="w-100 border-radius-10" src="assets/img/product2.jpg"/></div>
+				<div class="col-mobile-12 col-3 padding-5"><img class="w-100 border-radius-10" src="assets/img/product3.jpg"/></div>
+				<div class="col-mobile-12 col-3 padding-5"><img class="w-100 border-radius-10" src="assets/img/product4.jpg"/></div>
+			</div>
+		</div>
+	</body>
+	<br/>
+	<br/>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-2"><img class="w-100" src="assets/img/logof.svg"/></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2">
+				<button class="backbtn">بازگشت به بالا
+					<i class="fa fa-chevron-up" aria-hidden="true"></i>
+				</button>
+				</div>
+			</div>
+			<div>
+				<div class="container">
+					<div class="row">
+						<span class="tel"> تلفن پشتیبانی:&nbsp 6193000-021 </span>
+						<span class="seprator"></span>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<span>021-62999911</span>
+						<span class="seprator"></span>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<span>هفت روز هفته،24 ساعت شبانه روز پاسخگوی شما هستیم.</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</footer>
+</html>
